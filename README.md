@@ -36,3 +36,39 @@
 --|:--:|--:|
 |张飞|俺也一样|5|
 |吕布|认亲|1|
+
+## 插入代码片段
+使用\`\`\`语言，开头，以\`\`\`结束，之间直接插入代码即可。<br>
+
+```c
+#include <stdio.h>
+int main(){
+   printf("Hello World!\n");
+   return 0;
+}
+```
+
+```bash
+pwd
+echo "abc"
+cd
+pwd
+ps aux
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+   cout << "Hello World!" << endl;
+   return 0;
+}
+```
+## 超链接
+  在文档中加入可点击的超链接，点击后按照指定的地址访问打开新资源。<br>
+[哔哩哔哩](https://www.bilibili.com "点击访问")
+
+## 插入图片
+  在文件插入图片，需要指定图片地址，区分本地地址与URL网络地址。<br>
+  本地图片地址，外网无法访问，需要用户将本地图片上传到图床网站，生成网络图片的URL。<br>
